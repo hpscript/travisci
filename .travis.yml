@@ -1,0 +1,15 @@
+language: php
+php:
+  - 7.3
+
+before_script:
+  - composer self-update
+  - composer install
+  - chmod -R 777 storage
+
+script: 
+  - phpunit
+
+notifications:
+  emails:
+    - narishige7@gmail.com
