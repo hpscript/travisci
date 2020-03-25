@@ -8,7 +8,7 @@ before_script:
   - chmod -R 777 storage
 
 script: 
-  - phpunit
+  - ./vendor/bin/phpunit
 
 notifications:
   emails:
