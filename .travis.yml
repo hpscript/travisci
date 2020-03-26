@@ -15,6 +15,3 @@ before_script:
 script: 
   - ./vendor/bin/phpunit
 
-notifications:
-  emails:
-    - narishige7@gmail.com
